@@ -8,10 +8,10 @@ alias ls='exa -l --color=always --group-directories-first'
 alias lsa='exa -al --color=always --group-directories-first'
 
 # git aliases
-alias lo='git lo'
-alias s="git s"
-alias b="git b"
-alias p="git p"
+alias lo='git log --oneline -5'
+alias s="git status"
+alias b="git branch"
+alias p="git pull"
 
 ## apt
 alias aptup="sudo apt update"
@@ -27,4 +27,3 @@ alias cp="cp -i"                                #confirm before overwriting some
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
-
