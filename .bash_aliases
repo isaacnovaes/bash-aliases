@@ -17,7 +17,7 @@ alias b="git branch"
 alias d="git pull"
 alias u="git push"
 
-## nala - debian-based package manager frontend for apt
+## nala - front-end for libapt-pkg
 alias nalaup="sudo nala update && echo && echo  List of packages to update: && echo && sudo nala list -u"
 alias nalaug="sudo nala upgrade"
 alias nalaall="nalaup && nalaug"
