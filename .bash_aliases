@@ -17,12 +17,10 @@ alias b="git branch"
 alias d="git pull"
 alias u="git push"
 
-## apt
-alias aptup="sudo apt update"
-alias aptupl="sudo apt list --upgradable"
-alias aptug="sudo apt upgrade"
-alias aptrm="sudo apt autoremove"
-alias aptall="aptup && aptupl && aptug && aptrm"
+## nala - debian-based package manager frontend for apt
+alias nalaup="sudo nala update && echo && echo  List of packages to update: && echo && sudo nala list -u"
+alias nalaug="sudo nala upgrade"
+alias nalaall="nalaup && nalaug"
 
 ##
 alias cp="cp -i"                                #confirm before overwriting something
