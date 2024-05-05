@@ -18,7 +18,7 @@ alias d="git pull"
 alias u="git push"
 
 ## nala - front-end for libapt-pkg
-alias nalaup="sudo nala update && echo && echo  List of packages to update: && echo && sudo nala list -u"
+alias nalaup="sudo nala update && sudo nala list -u"
 alias nalaug="sudo nala upgrade"
 alias nalaall="nalaup && nalaug"
 
